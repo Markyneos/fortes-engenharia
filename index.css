@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Koho;
+    src: url(Koho,Poppins/KoHo/KoHo-Regular.ttf) format(truetype);
+    font-family: Poppins;
+    src: url(Koho,Poppins/Poppins/Poppins-Regular.ttf) format(truetype);
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding-top: 10px;
+}
+nav {
+    display: flex;
+    background-color: #033E8C;
+    border-radius: 5px;
+    justify-content: space-around;
+    color: white;
+    font-family: Poppins;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+nav button {
+    width: 125px;
+    height: 33px;
+    background-color: #04BF7B;
+    font-family: Poppins;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: cover;
+    align-items: center;
+    
+}
+#mostrador {
+    padding: 20px;
+    border-radius: 30px;
+}
+article {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+body {
+    background-color: #033E8C;
+    margin: 0px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+

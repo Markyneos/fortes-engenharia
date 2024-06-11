@@ -1,0 +1,14 @@
+function mudarImagem() {
+    let imagem = document.getElementById("mostrador");
+    let link = document.getElementById("link");
+    let src = imagem.src;
+    
+    if (src.includes('imagens/inova-fortes.png')) {
+    imagem.setAttribute('src', 'imagens/inova-fortes-2.png');
+    link.setAttribute('href', 'https://fortes.ind.br/fortes-inicia-parceria-com-a-znit/');
+    }
+    else if (src.includes('imagens/inova-fortes-2.png')) {
+        imagem.setAttribute('src', 'imagens/inova-fortes.png');
+        link.setAttribute('href', 'https://fortes.ind.br/fortes-e-destaque-no-oiweek/');
+    }
+}

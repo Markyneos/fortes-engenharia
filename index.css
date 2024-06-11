@@ -29,17 +29,34 @@ nav button {
     color: white;
     border-radius: 5px;
     border: none;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+nav button:hover {
+    background-color: #02a569;
 }
 main {
     display: flex;
     justify-content: space-evenly;
-    object-fit: cover;
     align-items: center;
-    
+}
+main button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 #mostrador {
     padding: 20px;
-    border-radius: 30px;
+    border-radius: 40px;
+    transition: opacity 1s ease-in-out;
+    height: 450px;
+    width: 475px;
+}
+.fade-out {
+    opacity: 0;
+}
+.fade-in {
+    opacity: 1;
 }
 article {
     width: 85%;
@@ -54,5 +71,15 @@ body {
 nav a {
     text-decoration: none;
     color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.exemplos {
+    border-radius: 5%;
 }
 

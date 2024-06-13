@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +9,21 @@
 </head>
 <body>
     <main>
+        <header>
+            <img src="imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia">
+        </header>
         <div class="container">
             <h1>Login</h1>
-            <form autocomplete="on" name="login" method="post" id="login" target="_self">
-                <label for="login">Email</label>
-                <input type="email" name="email" id="email" required>
-                <label for="login">Senha</label>
-                <input type="password" name="senha" id="senha" required>
+            <form autocomplete="on" name="login" id="login">
+                <label for="login" class="log">Email</label>
+                <input type="email" name="email" id="email" required placeholder="Insira seu email...">
+                <label for="login" class="log">Senha</label>
+                <input type="password" name="senha" id="senha" required placeholder="Insira sua senha...">
                 <div class="checkbox">
                 <input type="checkbox" name="check" class="check" id="check" form="login">
                 <label for="login" class="check">Mantenha-me conectado(a)</label>
                 </div>
-                <button type="submit" form="login" id="enviar">Enviar</button>
+                <a href="portal-instituicao"><button type="submit" form="login" id="enviar">Enviar</button></a>
                 <a href="login-funcionario.html"><p class="alt" id="funcionario">Sou funcionário(a)</p></a>
             </form>
             <div class="links">

@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Koho;
+    src: url(KoHo,Poppins/KoHo/KoHo-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: Poppins;
+    src: url(Koho,Poppins/Poppins/Poppins-Regular.ttf) format("truetype");
+}
+body {
+    margin: 0%;
+    height: 100%;
+}
+main {
+    width: 80%;
+    margin: auto;
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+html {
+    height: 100%;
+}
+.container {
+    background-color: #033e8ce3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    height: 63.4%;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-family: Poppins;
+    font-size: x-small;
+}
+input, label {
+    margin: 5px;
+    font-family: Poppins;
+    font-size: smaller;
+    color: white;
+}
+#email {
+    border-radius: 5px;
+    border: none;
+    width: 75%;
+}
+#senha {
+    border-radius: 5px;
+    border: none;
+    width: 75%;
+}
+.check {
+    margin: 0px;
+    
+}
+.checkbox {
+    margin: 7px;
+    margin-bottom: 30px;
+}
+h1 {
+    font-family: Koho;
+    color: white;
+    text-transform: uppercase;
+}
+.alt {
+    margin: 0%;
+}
+#funcionario {
+    margin-top: 5px;
+}
+.links {
+    margin-top: 50px;
+}
+button {
+    background-color: #04BF7B;
+    color: white;
+    border: none;
+    font-family: Poppins;
+    width: 160px;
+    height: 32px;
+    border-radius: 5px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="menu-funcionario.css">
+</head>
+
+<body>
+    <article>
+        <header>
+            <img src="imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia" title="Fortes" width="175px">
+        </header>
+        <nav>
+            <a href="#">
+                <p class="navigators">A Fortes</p>
+            </a>
+            <a href="#">
+                <p class="navigators">Setores de Atuação</p>
+            </a>
+            <a href="#">
+                <p class="navigators">Solução Fortes</p>
+            </a>
+            <a href="#">
+                <p class="navigators">Integridade</p>
+            </a>
+            <a href="#">
+                <p class="navigators">Inova Fortes</p>
+            </a>
+            <a href="#">
+                <p class="navigators">Notícias</p>
+            </a>
+            <a href="#">
+                <p class="navigators">Contatos</p>
+            </a>
+            <a href="portal-funcionario.html">
+                <button type="button" name="Entrar">Instituições</button>
+            </a>
+        </nav>
+        <main>
+            <button id="anterior"><img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&"
+                    class="w-full aspect-[1.39] max-w-[90px]" height="85px" style="transform: rotate(180deg);"
+                    id="esquerda" onclick="mudarImagem()"/></button>
+            <a href="https://fortes.ind.br/fortes-e-destaque-no-oiweek/" target="_blank" id="link"><img
+                    src="imagens/inova-fortes.png" alt="Inova Fortes 1" height="450px" width="475px"
+                    id="mostrador" name="imagem" class="fade"></a>
+            <button id="próximo"><img loading="lazy"
+                    srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/12669fb8d1fd345869656e21d07dd2c1336ac106d95c9c7b6251cf8fa8768338?apiKey=7cd144bf6a4c44d39e51ba1eaa2cdd9d&"
+                    class="w-full aspect-[1.39] max-w-[90px]" height="85px" id="direita" onclick="mudarImagem()"/></button>
+        </main>
+        <footer>
+            <img src="imagens/inova-fortes-3.png" alt="Imagem de exemplo 1" class="exemplos" width="23%"
+                title="Imagem exemplo 1">
+            <img src="imagens/inova-fortes-4.png" alt="Imagem de exemplo 2" class="exemplos" width="23%"
+                title="Imagem exemplo 2">
+            <img src="imagens/inova-fortes-5.png" alt="Imagem de exemplo 3" class="exemplos" width="23%"
+                title="Imagem exemplo 3">
+        </footer>
+    </article>
+    <script src="menu-funcionario.js" defer></script>
+</body>
+
+</html>

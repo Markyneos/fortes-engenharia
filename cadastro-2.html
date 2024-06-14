@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro-2.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="cabecalho">
+            <a href="cadastro.html"><img src="imagens/Setapng.png" alt="Voltar" id="voltar"></a>
+            <img src="imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia" id="simbolo">
+            </div>
+        </header>
+        <div class="container">
+            <h1>Cadastro</h1>
+            <form autocomplete="on" name="cadastro" id="cadastro">
+                <label for="cadastro" class="cad">CEP</label>
+                <input type="text" name="CEP" id="cep" required placeholder="Insira somente números*">
+                <label for="cadastro" class="cad">Lougradouro</label>
+                <input type="text" name="lougradouro" id="loug" required>
+                <label for="cadastro" class="cad">Complemento</label>
+                <input type="text" name="complemento" id="comp" required>
+                <label for="cadastro" class="cad">UF</label>
+                <input type="text" name="uf" id="uf" required maxlength="2">
+                <label for="cadastro" class="cad">Número</label>
+                <input type="text" name="numero" id="numero" required placeholder="Insira somente números*">
+                <div class="checkbox">
+                    <input type="checkbox" name="Termos" id="termos" class="check" required>
+                    <label for="cadastro" class="check">Aceito os termos de uso</label>
+                </div>
+                <button type="submit" form="cadastro" id="enviar" formaction="menu-instituicao.html" onclick="concluido()">Prosseguir</button>
+            </form>
+        </div>
+    </main>
+    <script src="cadastro-2.js"></script>
+</body>
+</html>

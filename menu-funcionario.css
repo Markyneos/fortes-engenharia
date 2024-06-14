@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Koho;
+    src: url(Koho,Poppins/KoHo/KoHo-Regular.ttf) format(truetype);
+    font-family: Poppins;
+    src: url(Koho,Poppins/Poppins/Poppins-Regular.ttf) format(truetype);
+}
+header {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    padding-top: 10px;
+}
+nav {
+    display: flex;
+    background-color: #033E8C;
+    border-radius: 5px;
+    justify-content: space-around;
+    color: white;
+    font-family: Poppins;
+    align-items: center;
+    width: 98%;
+    margin: auto;
+}
+nav button {
+    width: 125px;
+    height: 33px;
+    background-color: #04BF7B;
+    font-family: Poppins;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.25s ease-in-out;
+    cursor: pointer;
+}
+nav button:hover {
+    background-color: #02a569;
+}
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#mostrador {
+    padding: 20px;
+    border-radius: 40px;
+    transition: opacity 1s ease-in-out;
+    height: 450px;
+    width: 475px;
+}
+.fade-out {
+    opacity: 0;
+}
+.fade-in {
+    opacity: 1;
+}
+article {
+    width: 85%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+body {
+    background-color: #033E8C;
+    margin: 0px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+.exemplos {
+    border-radius: 5%;
+}
+

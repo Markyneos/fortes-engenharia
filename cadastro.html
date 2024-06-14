@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="cabecalho">
+            <a href="login.html"><img src="imagens/Setapng.png" alt="Voltar" id="voltar"></a>
+            <img src="imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia" id="simbolo">
+            </div>
+        </header>
+        <div class="container">
+            <h1>Cadastro</h1>
+            <form autocomplete="on" name="cadastro" id="cadastro">
+                <label for="cadastro" class="cad">Nome Instituição</label>
+                <input type="text" name="nome" id="nome" required>
+                <label for="cadastro" class="cad">CNPJ/CPF</label>
+                <input type="text" name="cnpj" id="cnpj" required maxlength="14">
+                <label for="cadastro" class="cad">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="cadastro" class="cad">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" required>
+                <label for="cadastro" class="cad">Criar Senha</label>
+                <input type="password" name="senha" id="senha" required>
+                <a href="cadastro-2.html"><button type="submit" form="cadastro" id="enviar" formaction="cadastro-2.html">Prosseguir</button></a>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

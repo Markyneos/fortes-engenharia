@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Koho;
+    src: url(KoHo,Poppins/KoHo/KoHo-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: Poppins;
+    src: url(KoHo,Poppins/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: Poppins;
+}
+header {
+    display: flex;
+    margin: 15px;
+    justify-content: right;
+}
+#fortes {
+    margin: auto;
+    margin-right: 30%;
+}
+header a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chat {
+    width: 50%;
+}
+#home {
+    width: 50%;
+}
+.links {
+    display: flex;
+    margin: 0px;
+}
+main {
+    background-color: #033E8C;
+    color: white;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    margin-top: 10px;
+    margin-right: 15%;
+    margin-bottom: 10px;
+    align-self: flex-end;
+    background-color: #04BF7B;
+    border: none;
+    width: 135px;
+    height: 35px;
+    font-family: Poppins;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+}
+button:hover {
+    background-color: #04a86c;
+}
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Koho;
+    text-align: center;
+}
+#icone {
+    width: 6%;
+}
+.section1, .section2, .section3 {
+    margin-left: 15%;
+}
+h3 {
+    margin: 0px;
+    margin-left: 8px;
+    font-weight: normal;
+}
+.arquivo {
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(imagens/upload.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(196, 196, 196);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-left: 15%;
+    margin-bottom: 16px;
+    width: 30%;
+}
+.texto {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#arquivos {
+    opacity: 0;
+    width: 30px;
+    height: 10px;
+}
+.section1 {
+    margin-bottom: 30px;
+    margin-left: 15.3%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+#nome {
+    width: 400px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Poppins;
+}
+.descricao {
+    display:flex;
+    flex-direction: column;
+
+}
+#descricao {
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+    font-family: Poppins;
+    text-justify:newspaper;
+    text-wrap: wrap;
+}
+.section3 {
+    display: flex;
+    margin-left: 200px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15.5%;
+}

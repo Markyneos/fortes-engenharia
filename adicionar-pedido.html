@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquivo de apresentação</title>
+    <link rel="stylesheet" href="adicionar-pedido.css">
+</head>
+
+<body>
+    <header>
+        <img src="imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia" id="fortes" width="175px">
+        <div class="links">
+            <a href="menu-instituicao.html"><img src="imagens/home.png" alt="Home" id="home"></a>
+            <a href="chat-com-fortes.html"><img src="imagens/balão.png" alt="Chat" id="chat"></a>
+        </div>
+    </header>
+    <main>
+        <div class="informacoes">
+            <h1>Documentos de Apresentação</h1>
+            <p>Espaço destinado para o envio de arquivos pdfs, fotos e vídeos, para demonstrar os objetivos e os
+                impactos sociais
+                de sua instituição. Além de mostrar projetos e descrever formas de arrecadação.
+            </p>
+        </div>
+        <form name="Enviar" id="enviar">
+            <label for="arquivos">
+                <div class="texto">Arraste aqui a sua apresentação
+                    <span class="nome-arquivo" id="nome-arquivo">Nenhum arquivo selecionado</span>
+                </div>
+            </label>
+            <input form="enviar" type="file" name="Arquivos" id="arquivos" required multiple
+                accept=".pdf, .png, .jpg, .mp4, .mov, .mpg, .avi, .wmv">
+            <button form="enviar" type="submit" name="enviar" formaction="menu-instituicao.html">Enviar</button>
+        </form>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('arquivos').addEventListener('change', function () {
+            const nomeArquivo = this.files[0] ? this.files[0].name : 'Nenhum arquivo selecionado';
+            document.getElementById('nome-arquivo').textContent = nomeArquivo;
+        });
+    </script>
+</body>
+
+</html>

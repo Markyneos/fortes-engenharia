@@ -46,42 +46,10 @@ main {
     height: 88%;
     border-radius: 15px;
 }
-.artigo {
-    display: flex;
-    margin-left: 3%;
-}
-table, tbody, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-thead {
-    background-color: #033E8C;
-}
-tbody {
-    color: black;
-    background-color: rgb(238, 238, 238);
-}
-table {
-    width: 75%;
-    margin-top: 2%;
-    font-size:large;
-    box-shadow: black;
-}
-.pedidos {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80%;
-    width: 90%;
-    margin: auto;
-    border-radius: 15px;
-}
 button {
     margin-top: 10px;
-    margin-right: 12.69%;
-    margin-bottom: 10px;
+    margin-right: 26.8%;
+    margin-bottom: 0px;
     align-self: flex-end;
     background-color: #04BF7B;
     border: none;
@@ -96,12 +64,47 @@ button {
 button:hover {
     background-color: #04a86c;
 }
+h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Koho;
+    text-align: center;
+    width: max-content;
+}
 p {
-    margin: 0px;
+    width: 39%;
+    text-align: center;
 }
-summary {
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    opacity: 0;
+}
+label {
+    height: 250px;
+    width: 600px;
     cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(imagens/upload.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(196, 196, 196);
+    display: flex;
+    align-items: end;
+    justify-content: center;
 }
-summary::marker {
-    color: #033E8C;
+.texto {
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

@@ -19,7 +19,7 @@
             <h1>Cadastro</h1>
             <form autocomplete="on" name="cadastro" id="cadastro">
                 <label for="cadastro" class="cad">CEP</label>
-                <input type="text" name="CEP" id="cep" required placeholder="Insira somente números*">
+                <input type="text" name="CEP" id="cep" required placeholder="Insira somente números*" maxlength="8">
                 <label for="cadastro" class="cad">Lougradouro</label>
                 <input type="text" name="lougradouro" id="loug" required>
                 <label for="cadastro" class="cad">Complemento</label>
@@ -32,7 +32,7 @@
                     <input type="checkbox" name="Termos" id="termos" class="check" required>
                     <label for="cadastro" class="check">Aceito os termos de uso</label>
                 </div>
-                <button type="submit" form="cadastro" id="enviar" formaction="menu-instituicao.html" onclick="concluido()">Prosseguir</button>
+                <button type="submit" form="cadastro" id="enviar" formaction="adicionar-pedido.html" onclick="concluido()">Prosseguir</button>
             </form>
         </div>
     </main>

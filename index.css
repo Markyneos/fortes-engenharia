@@ -4,6 +4,9 @@
     font-family: Poppins;
     src: url(Koho,Poppins/Poppins/Poppins-Regular.ttf) format(truetype);
 }
+html {
+    font-family: Poppins;
+}
 header {
     display: flex;
     justify-content: center;
